@@ -1,4 +1,4 @@
-from crypt import methods
+
 from flask import Flask
 from tarefa import buscar_tarefas, buscar_tarefa
 app = Flask(__name__)
