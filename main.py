@@ -13,7 +13,7 @@ def get_tarefas():
         tarefas = buscar_tarefas()
         return tarefas
 
-@app.route('/api/tarefa', methods=('GET'))
+@app.route('/api/tarefa', methods=['GET'])
 def get_tarefa():
         tarefa = buscar_tarefa()
         return tarefa
